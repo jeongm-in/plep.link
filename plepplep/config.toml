@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Something Destiny 2 Stuff'
+theme = "pleppy"
+sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+    name = "Deep Stone Crypt"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Vault of Glass"
+    pre = "pen-tool"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Garden of Salvation"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "Last Wish"
+    pre = "tag"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    name = "Last Wish Wish Walls"
+    pre = "tag"
+    url = "/tags/"
+    weight = 5
+  [[menu.main]]
+    name = "Dungeons and Open World"
+    pre = "tag"
+    url = "/tags/"
+    weight = 6
