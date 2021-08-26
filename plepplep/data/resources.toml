@@ -1,0 +1,155 @@
+[[resources]]
+[[resources.dsc]]
+[resources.dsc.sparrow]
+res_link = "webp/dsc-sparrow.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/k6z5b8/deep_stone_crypt_raid_sparrow_map/"
+author = "Reddit u/mahck"
+
+[resources.dsc.crypt-1]
+res_link = "webp/dsc-security.webp"
+author = "ampinstein, VorpalBunnie, Anathaeum"
+
+[resources.dsc.crypt-2]
+res_link = "webp/dsc-security-2.webp"
+author = "Lasz" 
+
+[[resources.gos]]
+[resources.gos.consec]
+res_link = "webp/gos-eye.webp"
+source_link = "https://www.reddit.com/r/destiny2/comments/dkq44y/garden_of_salvation_sol_inherent_reference_image/"
+author = "Reddit u/Ambersca"
+
+[[resources.lw]]
+[[resources.lw.callout]]
+res_link = "webp/lw-callout.webp"
+source_link = ""
+author = ""
+
+[[resources.lw.rivensgaze]]
+is_a_link = true
+res_link = "https://rivengaze.firebaseapp.com/"
+source_link = "https://rivengaze.firebaseapp.com/riven103.html"
+author = "Twitter @elbisbe"
+
+[[resources.lw.rivenroom]]
+res_link = "webp/lw-rivenroom.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/9ig5yt/riven_infographic_displays_all_the_info_you_need/"
+author = "Twitch.tv/Echospawn"
+
+[[resources.lw.queenswalk]]
+res_link = "webp/lw-queenswalk.webp"
+source_link = "http://www.inven.co.kr/board/destinyguardians/5316/2298"
+author = "오리왕이오리"
+
+[[resources.lw.queenswalk-3d]]
+res_link = "webp/lw-queenswalk-3d.webp"
+source_link = "http://www.inven.co.kr/board/destinyguardians/5316/2298"
+author = "오리왕이오리"
+
+[[resources.lwww]]
+[[resources.lwww.01]]
+res_link = "webp/lw-wish-1.webp"
+source_link = ""
+author = "PLEP"
+
+[[resources.lwww.02]]
+res_link = "webp/lw-wish-2.webp"
+source_link = ""
+author = "PLEP"
+
+[[resources.lwww.03]]
+res_link = "webp/lw-wish-3.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww.04]]
+res_link = "webp/lw-wish-4.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww.05]]
+res_link = "webp/lw-wish-5.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww.06]]
+res_link = "webp/lw-wish-6.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww.07]]
+res_link = "webp/lw-wish-7.webp"
+source_link = ""
+author = "PLEP"
+
+[[resources.lwww2]]
+[[resources.lwww2.08]]
+res_link = "webp/lw-wish-8.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.09]]
+res_link = "webp/lw-wish-9.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.10]]
+res_link = "webp/lw-wish-10.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.11]]
+res_link = "webp/lw-wish-11.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.12]]
+res_link = "webp/lw-wish-12.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.13]]
+res_link = "webp/lw-wish-13.webp"
+source_link = ""
+author = "PLEP"
+
+
+[[resources.lwww2.14]]
+res_link = "webp/lw-wish-14.webp"
+source_link = ""
+author = "PLEP"
+
+[[resources.etc]]
+[[resources.etc.st-lab]]
+res_link = "webp/dg-st-1.webp"
+source_link= "https://www.reddit.com/r/destiny2/comments/a7gz90/erebus_map/"
+author = "Reddit u/osujds"
+
+[[resources.etc.poh-ogre]]
+res_link = "webp/dg-poh-ogre.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/dpml1e/tunnels_of_despair_map_pit_of_heresy/"
+author = "Reddit u/Bloody-Mando"
+
+[[resources.etc.poh-jump]]
+res_link = "webp/dg-poh-jump.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/dpkc4c/here_is_a_map_i_made_of_the_the_harrow_encounter/"
+author = "Reddit u/primo" 
+
+[[resources.etc.moon]]
+res_link = "webp/moon-map.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/kt3x93/i_mapped_all_of_the_underground_moon_tunnels/"
+author = "Reddit u/refelesque"
+
+[[resources.etc.harbinger]]
+res_link = "https://i.imgur.com/4TWrwkB.jpeg"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/l1mbz9/harbinger_reservoir_map/"
+
