@@ -14,7 +14,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "dsc-sparrow"    
     name = "Sparrow Race"
-    url = "/dsc/sparrow"
+    url = "/dsc/sparrow/"
     parent = "dsc"
     weight = 1
     [menu.main.params]
