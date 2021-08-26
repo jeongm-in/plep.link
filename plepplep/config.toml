@@ -3,35 +3,248 @@ languageCode = 'en-us'
 title = 'Something Destiny 2 Stuff'
 theme = "pleppy"
 sectionPagesMenu = "main"
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
+    identifier="dsc"
     name = "Deep Stone Crypt"
-    pre = "home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Vault of Glass"
-    pre = "pen-tool"
-    url = "/posts/"
+    identifier = "dsc-sparrow"    
+    name = "Sparrow Race"
+    url = "/dsc/sparrow"
+    parent = "dsc"
+    weight = 1
+    [menu.main.params]
+    first=true
+  [[menu.main]]
+    identifier = "dsc-crypt-1"    
+    name = "Crypt Security 1"
+    url = "/dsc/crypt-1"
+    parent = "dsc"
     weight = 2
   [[menu.main]]
-    name = "Garden of Salvation"
-    pre = "tag"
-    url = "/tags/"
+    identifier = "dsc-crypt-2"    
+    name = "Crypt Security 2"
+    url = "/dsc/crypt-2"
+    parent = "dsc"
+    weight = 3        
+  [[menu.main]]
+    name = "Vault of Glass"    
+    identifier="vog"
+    url = "/vog"
+    weight = 2
+  [[menu.main]]
+    identifier = "vog-oracle"    
+    name = "Oracle Location"
+    url = "/vog/oracle"
+    parent = "vog"
+    weight = 1
+    [menu.main.params]
+    first=true
+
+  [[menu.main]]
+    identifier = "vog-info"    
+    name = "Atheon Oracle"
+    url = "/vog/atheon"
+    parent = "vog"
+    weight = 2         
+  [[menu.main]]
+    name = "Garden of Salvation"    
+    identifier ="gos"
+    url = "/gos"
     weight = 3
   [[menu.main]]
+    identifier = "gos-consec"    
+    name = "Consecrated Mind"
+    url = "/gos/consec"
+    parent = "gos"
+    weight = 3      
+    [menu.main.params]  
+    first=true
+
+  [[menu.main]]
     name = "Last Wish"
-    pre = "tag"
-    url = "/tags/"
+    identifier="lw"
+    url = "/lw"
     weight = 4
   [[menu.main]]
-    name = "Last Wish Wish Walls"
-    pre = "tag"
-    url = "/tags/"
+    identifier = "lw-callout"    
+    name = "Callouts"
+    url = "/lw/callout"
+    parent = "lw"
+    weight = 1   
+    [menu.main.params]
+    first=true
+
+  [[menu.main]]
+    identifier = "lw-riven-room"    
+    name = "Riven Room Layout"
+    url = "/lw/riven-room"
+    parent = "lw"
+    weight = 2
+  [[menu.main]]
+    identifier = "lw-rivengaze"    
+    isLink = true
+    name = "Rivengaze"
+    url = "/lw/rivengaze"
+    parent = "lw"
+    weight = 3
+  [[menu.main]]
+    identifier = "lw-qw"    
+    name = "Queenswalk"
+    url = "/lw/queenswalk"
+    parent = "lw"
+    weight = 4
+  [[menu.main]]
+    identifier = "lw-qw3d"    
+    name = "Queenswalk 3D"
+    url = "/lw/queenswalk-3d"
+    parent = "lw"
+    weight = 5      
+  [[menu.main]]
+    name = "Last Wish Wish Walls 1"    
+    identifier="lwww"
+    url = "/lwww"
     weight = 5
   [[menu.main]]
-    name = "Dungeons and Open World"
-    pre = "tag"
-    url = "/tags/"
+    identifier = "ww-ov"    
+    name = "Wish Overview"
+    url = "/lwww/wish-ov"
+    parent = "lwww"
+    weight = 1
+    [menu.main.params]
+    first=true
+
+  [[menu.main]]
+    identifier = "ww-01"    
+    name = "Ethereal Key"
+    url = "/lwww/wish-01"
+    parent = "lwww"
+    weight = 2
+  [[menu.main]]
+    identifier = "ww-02"    
+    name = "Glittering Key"
+    url = "/lwww/wish-02"
+    parent = "lwww"
+    weight = 3
+  [[menu.main]]
+    identifier = "ww-03"    
+    name = "Emblem"
+    url = "/lwww/wish-03"
+    parent = "lwww"
+    weight = 4
+  [[menu.main]]
+    identifier = "ww-04"    
+    name = "Encounter 2"
+    url = "/lwww/wish-04"
+    parent = "lwww"
+    weight = 5
+  [[menu.main]]
+    identifier = "ww-05"    
+    name = "Encounter 3"
+    url = "/lwww/wish-05"
+    parent = "lwww"
     weight = 6
+  [[menu.main]]
+    identifier = "ww-06"    
+    name = "Encounter 4"
+    url = "/lwww/wish-06"
+    parent = "lwww"
+    weight = 7  
+  [[menu.main]]
+    identifier = "ww-07"    
+    name = "Encounter 5"
+    url = "/lwww/wish-07"
+    parent = "lwww"
+    weight = 8
+    
+  [[menu.main]]
+    name = "Last Wish Wish Walls 2"    
+    identifier="lwww2"
+    url = "/lwww2"
+    weight = 6
+  [[menu.main]]
+    identifier = "ww-08"    
+    name = "Play Song"
+    url = "/lwww2/wish-08"
+    parent = "lwww2"
+    weight = 9
+    [menu.main.params]
+    first=true
+  [[menu.main]]
+    identifier = "ww-09"    
+    name = "Failsafe"
+    url = "/lwww2/wish-09"
+    parent = "lwww2"
+    weight = 10
+  [[menu.main]]
+    identifier = "ww-10"    
+    name = "Drifter"
+    url = "/lwww2/wish-10"
+    parent = "lwww2"
+    weight = 11
+  [[menu.main]]
+    identifier = "ww-11"    
+    name = "Grunt Birthday"
+    url = "/lwww2/wish-11"
+    parent = "lwww2"
+    weight = 12
+  [[menu.main]]
+    identifier = "ww-12"    
+    name = "Head Ornament"
+    url = "/lwww2/wish-12"
+    parent = "lwww2"
+    weight = 13
+  [[menu.main]]
+    identifier = "ww-13"    
+    name = "Petra's Run"
+    url = "/lwww2/wish-13"
+    parent = "lwww2"
+    weight = 14
+  [[menu.main]]
+    identifier = "ww-14"    
+    name = "Corrupted Egg"
+    url = "/lwww2/wish-14"
+    parent = "lwww2"
+    weight = 15
+  [[menu.main]]
+    name = "Dungeons and Open World"    
+    identifier="etc"
+    url = "/etc"
+    weight = 7
+  [[menu.main]]
+    identifier = "etc-st-lab"    
+    name = "ST Labyrinth"
+    url = "/etc/st-1"
+    parent = "etc"
+    weight = 1
+    [menu.main.params]
+    first=true
+
+  [[menu.main]]
+    identifier = "etc-poh-ogre"    
+    name = "PoH Ogre Room"
+    url = "/etc/poh-ogre"
+    parent = "etc"
+    weight = 2
+  [[menu.main]]
+    identifier = "etc-poh-torment"    
+    name = "PoH Jump Room"
+    url = "/etc/poh-jump"
+    parent = "etc"
+    weight = 3
+  [[menu.main]]
+    identifier = "etc-moon"    
+    name = "Moon Map"
+    url = "/etc/moon"
+    parent = "etc"
+    weight = 4
+  [[menu.main]]
+    identifier = "etc-harb"    
+    name = "Harbinger Reservoir"
+    url = "/etc/hbgr"
+    parent = "etc"
+    weight = 5
