@@ -5,12 +5,13 @@ theme = "pleppy"
 sectionPagesMenu = "main"
 enableRobotsTXT = true
 staticDir = ['static']
-
+cloudFrontDistributionID = "EFU7AJ0ROWZSI"
 
 [deployment]
 order = [".webp$", ".png$", ".gif$", ".svg$"]
 
 [[deployment.targets]]
+name = "plepplep.tk"
 URL = "s3://www.plepplep.tk?region=us-west-2"
 
 
@@ -69,7 +70,8 @@ gzip = true
     name = "Atheon Oracle"
     url = "/vog/atheon"
     parent = "vog"
-    weight = 2         
+    weight = 2     
+        
   [[menu.main]]
     name = "Garden of Salvation"    
     identifier ="gos"

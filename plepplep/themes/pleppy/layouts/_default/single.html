@@ -4,11 +4,13 @@
 <div id="title-bar">
     <h5>{{$this.title}}</h5>
     {{with $this.source_link}}
-    <a href="{{$this.source_link}}">Made by {{$this.author}}</a>
-    {{else}}
     {{with $this.author}}
-    <p>Made by {{$this.author}}</p>
+    <a href="{{$this.source_link}}">Made by {{$this.author}}</a>
     {{end}}
+    {{else}}
+        {{with $this.author}}
+        <p>Made by {{$this.author}}</p>
+        {{end}}
     {{end}}
 </div>
 <div id="res-box">
