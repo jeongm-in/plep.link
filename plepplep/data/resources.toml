@@ -1,155 +1,196 @@
+test = 1
+
 [[resources]]
 [[resources.dsc]]
-[resources.dsc.sparrow]
-res_link = "webp/dsc-sparrow.webp"
+[dsc.sparrow]
+title = "Sparrow Race"
+res_link = "/webp/dsc-sparrow.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/k6z5b8/deep_stone_crypt_raid_sparrow_map/"
 author = "Reddit u/mahck"
 
-[resources.dsc.crypt-1]
-res_link = "webp/dsc-security.webp"
+[dsc.crypt-1]
+title = "Crypt Security"
+res_link = "/webp/dsc-security.webp"
 author = "ampinstein, VorpalBunnie, Anathaeum"
 
-[resources.dsc.crypt-2]
-res_link = "webp/dsc-security-2.webp"
+[dsc.crypt-2]
+title = "Crypt Security"
+res_link = "/webp/dsc-security-2.webp"
 author = "Lasz" 
+source_link= "https://imgur.com/user/vargamatemedia"
+
+[[resources.vog]]
+[vog.oracle]
+title = "Oracle Sequence"
+res_link = "/webp/vog-oracle.webp"
+author = "Destiny Raider"
+
+[vog.atheon]
+title = "Atheon Oracle" 
+res_link = "/webp/vog-atheon-1.webp"
+author = "PLEP"
 
 [[resources.gos]]
-[resources.gos.consec]
-res_link = "webp/gos-eye.webp"
+[gos.consec]
+title = "Consecrated Mind"
+res_link = "/webp/gos-eye.webp"
 source_link = "https://www.reddit.com/r/destiny2/comments/dkq44y/garden_of_salvation_sol_inherent_reference_image/"
 author = "Reddit u/Ambersca"
 
 [[resources.lw]]
-[[resources.lw.callout]]
-res_link = "webp/lw-callout.webp"
-source_link = ""
+[lw.callout]
+title="Last Wish Callouts"
+res_link = "/webp/lw-callout.webp"
 author = ""
 
-[[resources.lw.rivensgaze]]
+[lw.rivengaze]
+title="Riven's Gaze"
 is_a_link = true
 res_link = "https://rivengaze.firebaseapp.com/"
 source_link = "https://rivengaze.firebaseapp.com/riven103.html"
 author = "Twitter @elbisbe"
 
-[[resources.lw.rivenroom]]
-res_link = "webp/lw-rivenroom.webp"
+[lw.rivenroom]
+title = "Riven Room Layout"
+res_link = "/webp/lw-rivenroom.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/9ig5yt/riven_infographic_displays_all_the_info_you_need/"
 author = "Twitch.tv/Echospawn"
 
-[[resources.lw.queenswalk]]
-res_link = "webp/lw-queenswalk.webp"
+[lw.queenswalk]
+title = "Queenswalk"
+res_link = "/webp/lw-queenswalk.webp"
 source_link = "http://www.inven.co.kr/board/destinyguardians/5316/2298"
 author = "오리왕이오리"
 
-[[resources.lw.queenswalk-3d]]
-res_link = "webp/lw-queenswalk-3d.webp"
+[lw.queenswalk-3d]
+title = "Queenswalk 3D"
+res_link = "/webp/lw-queenswalk-3d.webp"
 source_link = "http://www.inven.co.kr/board/destinyguardians/5316/2298"
 author = "오리왕이오리"
 
 [[resources.lwww]]
-[[resources.lwww.01]]
-res_link = "webp/lw-wish-1.webp"
+[lwww.01]
+title = "Wish 01"
+res_link = "/webp/lw-wish-1.webp"
 source_link = ""
 author = "PLEP"
 
-[[resources.lwww.02]]
-res_link = "webp/lw-wish-2.webp"
+[lwww.02]
+title = "Wish 02"
+res_link = "/webp/lw-wish-2.webp"
 source_link = ""
 author = "PLEP"
 
-[[resources.lwww.03]]
-res_link = "webp/lw-wish-3.webp"
-source_link = ""
-author = "PLEP"
-
-
-[[resources.lwww.04]]
-res_link = "webp/lw-wish-4.webp"
-source_link = ""
-author = "PLEP"
-
-
-[[resources.lwww.05]]
-res_link = "webp/lw-wish-5.webp"
+[lwww.03]
+title = "Wish 03"
+res_link = "/webp/lw-wish-3.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww.06]]
-res_link = "webp/lw-wish-6.webp"
+[lwww.04]
+title = "Wish 04"
+res_link = "/webp/lw-wish-4.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww.07]]
-res_link = "webp/lw-wish-7.webp"
+[lwww.05]
+title = "Wish 05"
+res_link = "/webp/lw-wish-5.webp"
+source_link = ""
+author = "PLEP"
+
+
+[lwww.06]
+title = "Wish 06"
+res_link = "/webp/lw-wish-6.webp"
+source_link = ""
+author = "PLEP"
+
+
+[lwww.07]
+title = "Wish 07"
+res_link = "/webp/lw-wish-7.webp"
 source_link = ""
 author = "PLEP"
 
 [[resources.lwww2]]
-[[resources.lwww2.08]]
-res_link = "webp/lw-wish-8.webp"
+[lwww2.08]
+title = "Wish 08"
+res_link = "/webp/lw-wish-8.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.09]]
-res_link = "webp/lw-wish-9.webp"
+[lwww2.09]
+title = "Wish 09"
+res_link = "/webp/lw-wish-9.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.10]]
-res_link = "webp/lw-wish-10.webp"
+[lwww2.10]
+title = "Wish 10"
+res_link = "/webp/lw-wish-10.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.11]]
-res_link = "webp/lw-wish-11.webp"
+[lwww2.11]
+title = "Wish 11"
+res_link = "/webp/lw-wish-11.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.12]]
-res_link = "webp/lw-wish-12.webp"
+[lwww2.12]
+title = "Wish 12"
+res_link = "/webp/lw-wish-12.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.13]]
-res_link = "webp/lw-wish-13.webp"
+[lwww2.13]
+title = "Wish 13"
+res_link = "/webp/lw-wish-13.webp"
 source_link = ""
 author = "PLEP"
 
 
-[[resources.lwww2.14]]
-res_link = "webp/lw-wish-14.webp"
+[lwww2.14]
+title = "Wish 14"
+res_link = "/webp/lw-wish-14.webp"
 source_link = ""
 author = "PLEP"
 
 [[resources.etc]]
-[[resources.etc.st-lab]]
-res_link = "webp/dg-st-1.webp"
+[etc.st-lab]
+title = "Shattered Throne Labyrinth"
+res_link = "/webp/dg-st-1.webp"
 source_link= "https://www.reddit.com/r/destiny2/comments/a7gz90/erebus_map/"
 author = "Reddit u/osujds"
 
-[[resources.etc.poh-ogre]]
-res_link = "webp/dg-poh-ogre.webp"
+[etc.poh-ogre]
+title = "Pit of Heresey Ogre Room"
+res_link = "/webp/dg-poh-ogre.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/dpml1e/tunnels_of_despair_map_pit_of_heresy/"
 author = "Reddit u/Bloody-Mando"
 
-[[resources.etc.poh-jump]]
-res_link = "webp/dg-poh-jump.webp"
+[etc.poh-jump]
+title = "Pit of Heresey Jump Room"
+res_link = "/webp/dg-poh-jump.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/dpkc4c/here_is_a_map_i_made_of_the_the_harrow_encounter/"
 author = "Reddit u/primo" 
 
-[[resources.etc.moon]]
-res_link = "webp/moon-map.webp"
+[etc.moon]
+title = "Moon Map"
+res_link = "/webp/moon-map.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/kt3x93/i_mapped_all_of_the_underground_moon_tunnels/"
 author = "Reddit u/refelesque"
 
-[[resources.etc.harbinger]]
-res_link = "https://i.imgur.com/4TWrwkB.jpeg"
+[etc.harbinger]
+title = "Harbinger Reservoir Map"
+res_link = "/webp/harbinger.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/l1mbz9/harbinger_reservoir_map/"
-
+author = "Reddit u/Nuclearfish108"
