@@ -1,17 +1,24 @@
 {{ define "main" }}
+{{$parent := index .Site.Data.resources .Params.cat}}
+{{$this := index $parent .Params.k}}
 <div id="title-bar">
-    <h5>{{ .Title }}</h5>
-    <a href="{{.Params.source_link}}">Made by {{.Params.Author}}</a>
+    <h5>{{$this.title}}</h5>
+    {{with $this.source_link}}
+    <a href="{{$this.source_link}}">Made by {{$this.author}}</a>
+    {{else}}
+    {{with $this.author}}
+    <p>Made by {{$this.author}}</p>
+    {{end}}
+    {{end}}
 </div>
-<div>
+<div id="res-box">
     {{with .Params.is_a_link}}
     <div>
-        Visit <a href="{{.Params.res_link}}">{{.Title}}</a>.
+        Visit <a href="{{$this.res_link}}">{{.Title}}</a>.
     </div> 
-    {{else}}
-        <img id="info-img" src="{{.Params.res_link}}">
-    {{end}}
-    {{print .Site.Data.resources.dsc.sparrow}}
+    {{else}} 
+        <img id="info-img" src="{{$this.res_link}}">
+    {{end}}    
 </div>
 {{ .Content }} 
 {{ end }}   
