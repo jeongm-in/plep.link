@@ -4,6 +4,7 @@ title = 'Something Destiny 2 Stuff'
 theme = "pleppy"
 sectionPagesMenu = "main"
 enableRobotsTXT = true
+staticDir = ['static']
 
 [menu]
   [[menu.main]]
@@ -109,14 +110,6 @@ enableRobotsTXT = true
     identifier="lwww"
     url = "/lwww"
     weight = 5
-  [[menu.main]]
-    identifier = "ww-ov"    
-    name = "Wish Overview"
-    url = "/lwww/wish-ov"
-    parent = "lwww"
-    weight = 1
-    [menu.main.params]
-    first=true
 
   [[menu.main]]
     identifier = "ww-01"    
@@ -124,6 +117,9 @@ enableRobotsTXT = true
     url = "/lwww/wish-01"
     parent = "lwww"
     weight = 2
+    [menu.main.params]
+    first=true
+
   [[menu.main]]
     identifier = "ww-02"    
     name = "Glittering Key"
@@ -218,7 +214,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "etc-st-lab"    
     name = "ST Labyrinth"
-    url = "/etc/st-1"
+    url = "/etc/st-l"
     parent = "etc"
     weight = 1
     [menu.main.params]
@@ -245,6 +241,6 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "etc-harb"    
     name = "Harbinger Reservoir"
-    url = "/etc/hbgr"
+    url = "/etc/hrbngr"
     parent = "etc"
     weight = 5
