@@ -28,10 +28,44 @@
 }
 
 #info-img{
-    margin-top:2vh;
-    height: 20%;
+    height: 650px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:33vw;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    html {
+        background: #2d3239;
+    }
+    #title-bar, #res-box, #navbar-outer {
+        color: #75715e;
+        background: #2d3239;
+    }
+    .dropdown-menu.show {
+        background-color: #858585;
+        color: #e9d970;
+        border: 1px white;
+    }
+    .dropdown-toggle {
+        color: #e9d970;
+    }
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        background-color: #858585 !important;
+        color: #e9d970 !important;
+    }
+    .dropdown-toggle:hover {
+        color: #e9d970;
+        text-shadow: 1px 1px 2px #ffd505;
+    }
+    .dropdown-item.image-related {
+        color: #e9d970;
+    }
+    .dropdown-item.image-related:hover {
+        background-color: #999;
+        color: #e9d970;
+        text-shadow: 1px 1px 1px #ffd505;
+    }
+ 
 }
