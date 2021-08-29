@@ -1,5 +1,4 @@
-name: github pages
-
+name: hugo to s3
 on:
   push:
     branches:
