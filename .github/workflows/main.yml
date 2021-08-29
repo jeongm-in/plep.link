@@ -27,9 +27,9 @@ jobs:
         working-directory: plepplep
         run: hugo --minify
 
-      - name: Deploy
-        working-directory: plepplep
+      - name: Deploy        
         uses: reggionick/s3-deploy@v3
+        working-directory: plepplep
         with:
           folder: public        
           bucket: ${{ secrets.S3_BUCKET }}
