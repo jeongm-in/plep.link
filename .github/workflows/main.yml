@@ -24,6 +24,7 @@ jobs:
           # extended: true
 
       - name: Build
+        working-directory: plepplep
         run: hugo --minify
 
       - name: Deploy
