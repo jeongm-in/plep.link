@@ -73,18 +73,35 @@ gzip = true
     weight = 2     
         
   [[menu.main]]
-    name = "Garden of Salvation"    
-    identifier ="gos"
-    url = "/gos"
+    name = "GoS / VotW"    
+    identifier ="gos-vow"
+    url = "/gos-vow"
     weight = 3
+
   [[menu.main]]
-    identifier = "gos-consec"    
+    identifier = "gos-vow-consec"    
     name = "Consecrated Mind"
-    url = "/gos/consec"
-    parent = "gos"
+    url = "/gos-vow/consec"
+    parent = "gos-vow"
     weight = 3      
     [menu.main.params]  
     first=true
+
+  [[menu.main]]
+    identifier = "gos-vow-exhibition"    
+    name = "Exhibition"
+    url = "/gos-vow/exhibition"
+    parent = "gos-vow"
+    weight = 3      
+    
+  [[menu.main]]
+    identifier = "gos-vow-rhulk"    
+    name = "Rhulk"
+    url = "/gos-vow/rhulk"
+    parent = "gos-vow"
+    weight = 3      
+    
+
 
   [[menu.main]]
     name = "Last Wish"
