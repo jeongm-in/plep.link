@@ -29,12 +29,25 @@ title = "Atheon Oracle"
 res_link = "/webp/vog-atheon-1.webp"
 author = "PLEP"
 
-[[resources.gos]]
-[gos.consec]
+[[resources.gos-vow]]
+[gos-vow.consec]
 title = "Consecrated Mind"
 res_link = "/webp/gos-eye.webp"
 source_link = "https://www.reddit.com/r/destiny2/comments/dkq44y/garden_of_salvation_sol_inherent_reference_image/"
 author = "Reddit u/Ambersca"
+
+[gos-vow.exhibition]
+title = "Rhulk"
+res_link = "/webp/gos-vow-rhulk.webp"
+source_link = "https://www.reddit.com/r/raidsecrets/comments/taib0v/double_buff_deposit_rhulk_rotation_graphic/"
+author = "Reddit u/JoeGibbons"
+
+[gos-vow.exhibition]
+title = "Exhibition"
+res_link = "/webp/gos-vow-exhibition.webp"
+source_link = "https://twitter.com/hughmlong/status/1501197389486559238?cxt=HHwWjMC4oc7EqdUpAAAA"
+author = "Twitter @hughmlong"
+
 
 [[resources.lw]]
 [lw.callout]
