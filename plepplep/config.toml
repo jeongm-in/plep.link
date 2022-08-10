@@ -26,11 +26,57 @@ pattern = "^.+\\.(html|xml|json)$"
 gzip = true
 
 [menu]
+  # Vow related configs
+  [[menu.main]]
+    name = "Vow of the Disciple"    
+    identifier="vow"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "vow-callout"    
+    name = "Normal People Callouts"
+    url = "/vow/callout-normal"
+    parent = "vow"
+    weight = 1    
+    [menu.main.params]
+      first=true
+  [[menu.main]]
+    identifier = "vow-callout-funny"    
+    name = "Funny Callouts"
+    url = "/vow/callout-funny"
+    parent = "vow"
+    weight = 2   
+  [[menu.main]]
+    identifier = "vow-acquisition"    
+    name = "Acquisition"
+    url = "/vow/acquisition"
+    parent = "vow"
+    weight = 3 
+  [[menu.main]]
+    identifier = "vow-acquisition-helper"    
+    name = "Acquisition Helper (External)"
+    url = "/vow/acquisition-help"
+    parent = "vow"
+    weight = 4 
+  [[menu.main]]
+    identifier = "vow-exhibition"    
+    name = "Exhibition"
+    url = "/vow/exhibition"
+    parent = "vow"
+    weight = 5
+  [[menu.main]]
+    identifier = "vow-rhulk"    
+    name = "Rhulk"
+    url = "/vow/rhulk"
+    parent = "vow"
+    weight = 6   
+  
+  # DSC related configs
   [[menu.main]]
     identifier="dsc"
     name = "Deep Stone Crypt"
-    url = "/"
-    weight = 1
+    url = "/dsc"
+    weight = 2
   [[menu.main]]
     identifier = "dsc-sparrow"    
     name = "Sparrow Race"
@@ -51,58 +97,35 @@ gzip = true
     url = "/dsc/crypt-2"
     parent = "dsc"
     weight = 3        
+
+  # Garden and Vault related configs
   [[menu.main]]
-    name = "Vault of Glass"    
-    identifier="vog"
-    url = "/vog"
-    weight = 2
+    name = "Garden / Vault"    
+    identifier ="gos-vog"
+    url = "/gos-vog"
+    weight = 3
+  [[menu.main]]
+    identifier = "gos-vow-consec"    
+    name = "Consecrated Mind Eyeballs"
+    url = "/gos-vog/consec"
+    parent = "gos-vog"
+    weight = 2     
+    [menu.main.params]
+    first=true  
   [[menu.main]]
     identifier = "vog-oracle"    
     name = "Oracle Location"
-    url = "/vog/oracle"
-    parent = "vog"
-    weight = 1
-    [menu.main.params]
-    first=true
-
+    url = "/gos-vog/oracle"
+    parent = "gos-vog"
+    weight = 3
   [[menu.main]]
     identifier = "vog-info"    
     name = "Atheon Oracle"
-    url = "/vog/atheon"
-    parent = "vog"
-    weight = 2     
-        
-  [[menu.main]]
-    name = "GoS / VotW"    
-    identifier ="gos-vow"
-    url = "/gos-vow"
-    weight = 3
+    url = "/gos-vog/atheon"
+    parent = "gos-vog"
+    weight = 4           
 
-  [[menu.main]]
-    identifier = "gos-vow-consec"    
-    name = "Consecrated Mind"
-    url = "/gos-vow/consec"
-    parent = "gos-vow"
-    weight = 3      
-    [menu.main.params]  
-    first=true
-
-  [[menu.main]]
-    identifier = "gos-vow-exhibition"    
-    name = "Exhibition"
-    url = "/gos-vow/exhibition"
-    parent = "gos-vow"
-    weight = 3      
-    
-  [[menu.main]]
-    identifier = "gos-vow-rhulk"    
-    name = "Rhulk"
-    url = "/gos-vow/rhulk"
-    parent = "gos-vow"
-    weight = 3      
-    
-
-
+  # Last Wish related configs
   [[menu.main]]
     name = "Last Wish"
     identifier="lw"
@@ -116,133 +139,132 @@ gzip = true
     weight = 1   
     [menu.main.params]
     first=true
-
+  [[menu.main]]
+    identifier = "lw-aussie-callout"    
+    name = "Aussie Callouts"
+    url = "/lw/aussie-callout"
+    parent = "lw"
+    weight = 2
   [[menu.main]]
     identifier = "lw-riven-room"    
     name = "Riven Room Layout"
     url = "/lw/riven-room"
     parent = "lw"
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "lw-rivengaze"    
     isLink = true
-    name = "Rivengaze"
+    name = "Rivengaze (External)"
     url = "/lw/rivengaze"
     parent = "lw"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "lw-qw"    
     name = "Queenswalk"
     url = "/lw/queenswalk"
     parent = "lw"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "lw-qw3d"    
     name = "Queenswalk 3D"
     url = "/lw/queenswalk-3d"
     parent = "lw"
-    weight = 5      
+    weight = 6
+
+  # Wish Wall related configs
   [[menu.main]]
-    name = "Last Wish Wish Walls 1"    
+    name = "Last Wish Wish Walls"    
     identifier="lwww"
     url = "/lwww"
     weight = 5
 
   [[menu.main]]
     identifier = "ww-01"    
-    name = "Ethereal Key"
+    name = "01. Ethereal Key"
     url = "/lwww/wish-01"
     parent = "lwww"
     weight = 2
     [menu.main.params]
     first=true
-
   [[menu.main]]
     identifier = "ww-02"    
-    name = "Glittering Key"
+    name = "02. Glittering Key"
     url = "/lwww/wish-02"
     parent = "lwww"
     weight = 3
   [[menu.main]]
     identifier = "ww-03"    
-    name = "Emblem"
+    name = "03. Emblem"
     url = "/lwww/wish-03"
     parent = "lwww"
     weight = 4
   [[menu.main]]
     identifier = "ww-04"    
-    name = "Encounter 2"
+    name = "04. Encounter 2"
     url = "/lwww/wish-04"
     parent = "lwww"
     weight = 5
   [[menu.main]]
     identifier = "ww-05"    
-    name = "Encounter 3"
+    name = "05. Encounter 3"
     url = "/lwww/wish-05"
     parent = "lwww"
     weight = 6
   [[menu.main]]
     identifier = "ww-06"    
-    name = "Encounter 4"
+    name = "06. Encounter 4"
     url = "/lwww/wish-06"
     parent = "lwww"
     weight = 7  
   [[menu.main]]
     identifier = "ww-07"    
-    name = "Encounter 5"
+    name = "07. Encounter 5"
     url = "/lwww/wish-07"
     parent = "lwww"
     weight = 8
-    
-  [[menu.main]]
-    name = "Last Wish Wish Walls 2"    
-    identifier="lwww2"
-    url = "/lwww2"
-    weight = 6
   [[menu.main]]
     identifier = "ww-08"    
-    name = "Play Song"
-    url = "/lwww2/wish-08"
-    parent = "lwww2"
+    name = "08. Play a Song"
+    url = "/lwww/wish-08"
+    parent = "lwww"
     weight = 9
-    [menu.main.params]
-    first=true
   [[menu.main]]
     identifier = "ww-09"    
-    name = "Failsafe"
-    url = "/lwww2/wish-09"
-    parent = "lwww2"
+    name = "09. Failsafe Voiceover"
+    url = "/lwww/wish-09"
+    parent = "lwww"
     weight = 10
   [[menu.main]]
     identifier = "ww-10"    
-    name = "Drifter"
-    url = "/lwww2/wish-10"
-    parent = "lwww2"
+    name = "10. Drifter Voiceover"
+    url = "/lwww/wish-10"
+    parent = "lwww"
     weight = 11
   [[menu.main]]
     identifier = "ww-11"    
-    name = "Grunt Birthday"
-    url = "/lwww2/wish-11"
-    parent = "lwww2"
+    name = "11. Grunt Birthday Party"
+    url = "/lwww/wish-11"
+    parent = "lwww"
     weight = 12
   [[menu.main]]
     identifier = "ww-12"    
-    name = "Head Ornament"
-    url = "/lwww2/wish-12"
-    parent = "lwww2"
+    name = "13. Funny Head Ornament"
+    url = "/lwww/wish-12"
+    parent = "lwww"
     weight = 13
   [[menu.main]]
     identifier = "ww-13"    
-    name = "Petra's Run"
-    url = "/lwww2/wish-13"
-    parent = "lwww2"
+    name = "14. Petra's Run"
+    url = "/lwww/wish-13"
+    parent = "lwww"
     weight = 14
   [[menu.main]]
     identifier = "ww-14"    
-    name = "Corrupted Egg"
-    url = "/lwww2/wish-14"
-    parent = "lwww2"
+    name = "15. Spawn Corrupted Egg"
+    url = "/lwww/wish-14"
+    parent = "lwww"
     weight = 15
+
   [[menu.main]]
     name = "Dungeons and Open World"    
     identifier="etc"
@@ -250,7 +272,7 @@ gzip = true
     weight = 7
   [[menu.main]]
     identifier = "etc-st-lab"    
-    name = "ST Labyrinth"
+    name = "Shattered Throne Labyrinth"
     url = "/etc/st-l"
     parent = "etc"
     weight = 1
@@ -259,13 +281,13 @@ gzip = true
 
   [[menu.main]]
     identifier = "etc-poh-ogre"    
-    name = "PoH Ogre Room"
+    name = "Pit Ogre Room"
     url = "/etc/poh-ogre"
     parent = "etc"
     weight = 2
   [[menu.main]]
     identifier = "etc-poh-torment"    
-    name = "PoH Jump Room"
+    name = "Pit Jump Room"
     url = "/etc/poh-jump"
     parent = "etc"
     weight = 3
@@ -277,7 +299,19 @@ gzip = true
     weight = 4
   [[menu.main]]
     identifier = "etc-harb"    
-    name = "Harbinger Reservoir"
+    name = "Harbinger Reservoir (Haha)"
     url = "/etc/hrbngr"
+    parent = "etc"
+    weight = 5
+  [[menu.main]]
+    identifier = "etc-vault"    
+    name = "Duality Vault"
+    url = "/etc/vault"
+    parent = "etc"
+    weight = 5
+  [[menu.main]]
+    identifier = "etc-caitl"    
+    name = "Duality Caiatl"
+    url = "/etc/caiatl"
     parent = "etc"
     weight = 5
