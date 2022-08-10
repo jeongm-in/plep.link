@@ -1,7 +1,7 @@
 +++
-cat = "vog"
+cat = "gos-vog"
 k = "atheon"
 aliases = [
-    "/vog/atheon/"
+    "/gos-vog/atheon/"
 ]
 +++

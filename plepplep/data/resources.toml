@@ -17,31 +17,46 @@ res_link = "/webp/dsc-security-2.webp"
 author = "Lasz" 
 source_link= "https://imgur.com/user/vargamatemedia"
 
-[[resources.vog]]
-[vog.oracle]
+[[resources.gos-vog]]
+[gos-vog.oracle]
 title = "Oracle Sequence"
 res_link = "/webp/vog-oracle.webp"
 author = "Destiny Raider"
 
-[vog.atheon]
+[gos-vog.atheon]
 title = "Atheon Oracle" 
 res_link = "/webp/vog-atheon-1.webp"
 author = "PLEP"
 
-[[resources.gos-vow]]
-[gos-vow.consec]
+[gos-vog.consec]
 title = "Consecrated Mind"
 res_link = "/webp/gos-eye.webp"
 source_link = "https://www.reddit.com/r/destiny2/comments/dkq44y/garden_of_salvation_sol_inherent_reference_image/"
 author = "Reddit u/Ambersca"
 
-[gos-vow.rhulk]
+[[resources.vow]]
+[vow.callout]
+title = "Normal People Callouts"
+res_link = "/webp/vow-symbols.webp"
+
+[vow.callout-funny]
+title = "Funny Callouts"
+res_link = "/webp/funny-callout.webp"
+
+
+[vow.rhulk]
 title = "Rhulk"
 res_link = "/webp/gos-vow-rhulk.webp"
 source_link = "https://www.reddit.com/r/raidsecrets/comments/taib0v/double_buff_deposit_rhulk_rotation_graphic/"
 author = "Reddit u/JoeGibbons"
 
-[gos-vow.exhibition]
+[vow.acquisition]
+title = "Acquisition"
+res_link = "/webp/vow-acquisition.webp"
+source_link = "https://www.reddit.com/r/raidsecrets/comments/t8awzp/map_for_the_acquisition_encounter/"
+author = "Reddit u/ironyking-"
+
+[vow.exhibition]
 title = "Exhibition"
 res_link = "/webp/gos-vow-exhibition.webp"
 source_link = "https://twitter.com/hughmlong/status/1501197389486559238?cxt=HHwWjMC4oc7EqdUpAAAA"
@@ -52,6 +67,10 @@ author = "Twitter @hughmlong"
 [lw.callout]
 title="Last Wish Callouts"
 res_link = "/webp/lw-callout.webp"
+
+[lw.aussie-callout]
+title="Aussie Callouts"
+res_link = "/webp/aussie-callout.webp"
 
 [lw.rivengaze]
 title="Riven's Gaze"
@@ -125,50 +144,49 @@ res_link = "/webp/lw-wish-7.webp"
 source_link = ""
 author = "PLEP"
 
-[[resources.lwww2]]
-[lwww2.08]
+[lwww.08]
 title = "Wish 08"
 res_link = "/webp/lw-wish-8.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.09]
+[lwww.09]
 title = "Wish 09"
 res_link = "/webp/lw-wish-9.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.10]
+[lwww.10]
 title = "Wish 10"
 res_link = "/webp/lw-wish-10.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.11]
+[lwww.11]
 title = "Wish 11"
 res_link = "/webp/lw-wish-11.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.12]
+[lwww.12]
 title = "Wish 12"
 res_link = "/webp/lw-wish-12.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.13]
+[lwww.13]
 title = "Wish 13"
 res_link = "/webp/lw-wish-13.webp"
 source_link = ""
 author = "PLEP"
 
 
-[lwww2.14]
+[lwww.14]
 title = "Wish 14"
 res_link = "/webp/lw-wish-14.webp"
 source_link = ""
@@ -204,3 +222,21 @@ title = "Harbinger Reservoir Map"
 res_link = "/webp/harbinger.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/l1mbz9/harbinger_reservoir_map/"
 author = "Reddit u/Nuclearfish108"
+
+[etc.duality-1]
+title = "Duality First Encounter"
+res_link = "/webp/duality-1.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/v0y2h5/made_a_map_for_duality_encounters_1_2/"
+author = "Reddit u/MrsAsphyxia"
+
+[etc.duality-2]
+title = "Duality Vault Encounter"
+res_link = "/webp/duality-2.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/v0y2h5/made_a_map_for_duality_encounters_1_2/"
+author = "Reddit u/MrsAsphyxia"
+
+[etc.duality-3]
+title = "Duality Caiatl"
+res_link = "/webp/duality-3.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/v0y2h5/made_a_map_for_duality_encounters_1_2/"
+author = "Reddit u/MrsAsphyxia"

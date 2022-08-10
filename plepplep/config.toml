@@ -55,7 +55,7 @@ gzip = true
   [[menu.main]]
     identifier = "vow-acquisition-helper"    
     name = "Acquisition Helper (External)"
-    url = "/vow/acquisition-help"
+    url = "https://vowofthedisciple.web.app/"
     parent = "vow"
     weight = 4 
   [[menu.main]]
@@ -114,7 +114,7 @@ gzip = true
     first=true  
   [[menu.main]]
     identifier = "vog-oracle"    
-    name = "Oracle Location"
+    name = "2nd Encouter Oracles"
     url = "/gos-vog/oracle"
     parent = "gos-vog"
     weight = 3
@@ -146,30 +146,36 @@ gzip = true
     parent = "lw"
     weight = 2
   [[menu.main]]
+    identifier = "lw-vault-helper"    
+    name = "Vault Helper (External)"
+    url = "https://the-vault.netlify.app/"
+    parent = "lw"
+    weight = 3
+  [[menu.main]]
     identifier = "lw-riven-room"    
     name = "Riven Room Layout"
     url = "/lw/riven-room"
     parent = "lw"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "lw-rivengaze"    
     isLink = true
     name = "Rivengaze (External)"
-    url = "/lw/rivengaze"
+    url = "https://rivengaze.firebaseapp.com/"
     parent = "lw"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "lw-qw"    
     name = "Queenswalk"
     url = "/lw/queenswalk"
     parent = "lw"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "lw-qw3d"    
     name = "Queenswalk 3D"
     url = "/lw/queenswalk-3d"
     parent = "lw"
-    weight = 6
+    weight = 7
 
   # Wish Wall related configs
   [[menu.main]]
@@ -248,19 +254,19 @@ gzip = true
     weight = 12
   [[menu.main]]
     identifier = "ww-12"    
-    name = "13. Funny Head Ornament"
+    name = "12. Funny Head Ornament"
     url = "/lwww/wish-12"
     parent = "lwww"
     weight = 13
   [[menu.main]]
     identifier = "ww-13"    
-    name = "14. Petra's Run"
+    name = "13. Petra's Run"
     url = "/lwww/wish-13"
     parent = "lwww"
     weight = 14
   [[menu.main]]
     identifier = "ww-14"    
-    name = "15. Spawn Corrupted Egg"
+    name = "14. Spawn Corrupted Egg"
     url = "/lwww/wish-14"
     parent = "lwww"
     weight = 15
@@ -299,19 +305,25 @@ gzip = true
     weight = 4
   [[menu.main]]
     identifier = "etc-harb"    
-    name = "Harbinger Reservoir (Haha)"
+    name = "Harbinger Reservoir"
     url = "/etc/hrbngr"
     parent = "etc"
     weight = 5
   [[menu.main]]
-    identifier = "etc-vault"    
-    name = "Duality Vault"
-    url = "/etc/vault"
+    identifier = "etc-duality-1"    
+    name = "Duality First"
+    url = "/etc/duality-1"
     parent = "etc"
-    weight = 5
+    weight = 6
   [[menu.main]]
-    identifier = "etc-caitl"    
-    name = "Duality Caiatl"
-    url = "/etc/caiatl"
+    identifier = "etc-duality-2"    
+    name = "Duality Vault"
+    url = "/etc/duality-2"
     parent = "etc"
-    weight = 5
+    weight = 7
+  [[menu.main]]
+    identifier = "etc-duality-3"    
+    name = "Duality Caiatl"
+    url = "/etc/duality-3"
+    parent = "etc"
+    weight = 8
