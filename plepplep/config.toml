@@ -33,43 +33,49 @@ gzip = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "vow-callout"    
-    name = "Normal People Callouts"
-    url = "/vow/callout-normal"
+    identifier = "vow-symbols"    
+    name = "Red Border Symbols (External)"
+    url = "https://glyphs.destiny.guide/vow/bonus-chest"
     parent = "vow"
     weight = 1    
     [menu.main.params]
       first=true
   [[menu.main]]
+    identifier = "vow-callout"    
+    name = "Normal People Callouts"
+    url = "/vow/callout-normal"
+    parent = "vow"
+    weight = 2   
+  [[menu.main]]
     identifier = "vow-callout-funny"    
     name = "Funny Callouts"
     url = "/vow/callout-funny"
     parent = "vow"
-    weight = 2   
+    weight = 3   
   [[menu.main]]
     identifier = "vow-acquisition"    
     name = "Acquisition"
     url = "/vow/acquisition"
     parent = "vow"
-    weight = 3 
+    weight = 4 
   [[menu.main]]
     identifier = "vow-acquisition-helper"    
     name = "Acquisition Helper (External)"
     url = "https://vowofthedisciple.web.app/"
     parent = "vow"
-    weight = 4 
+    weight = 5 
   [[menu.main]]
     identifier = "vow-exhibition"    
     name = "Exhibition"
     url = "/vow/exhibition"
     parent = "vow"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "vow-rhulk"    
     name = "Rhulk"
     url = "/vow/rhulk"
     parent = "vow"
-    weight = 6   
+    weight = 7   
   
   # DSC related configs
   [[menu.main]]
@@ -160,7 +166,7 @@ gzip = true
   [[menu.main]]
     identifier = "lw-rivengaze"    
     isLink = true
-    name = "Rivengaze (External)"
+    name = "Riven's gaze (External)"
     url = "https://rivengaze.firebaseapp.com/"
     parent = "lw"
     weight = 5
@@ -271,11 +277,12 @@ gzip = true
     parent = "lwww"
     weight = 15
 
+# Open World info 
   [[menu.main]]
     name = "Dungeons and Open World"    
     identifier="etc"
     url = "/etc"
-    weight = 7
+    weight = 6
   [[menu.main]]
     identifier = "etc-st-lab"    
     name = "Shattered Throne Labyrinth"
@@ -327,3 +334,25 @@ gzip = true
     url = "/etc/duality-3"
     parent = "etc"
     weight = 8
+
+
+  # DSC related configs
+  [[menu.main]]
+    identifier="kf"
+    name = "King's Fall"
+    url = "/kf"
+    weight = 7
+  [[menu.main]]
+    identifier = "kf-symbols"    
+    name = "Red Border Symbols (External)"
+    url = "https://glyphs.destiny.guide/kings-fall/bonus-chest"
+    parent = "kf"
+    weight = 1
+    [menu.main.params]
+    first=true
+  [[menu.main]]
+    identifier = "kf-labyrinth"    
+    name = "Golgoroth Labyrinth"
+    url = "/kf/labyrinth"
+    parent = "kf"
+    weight = 2

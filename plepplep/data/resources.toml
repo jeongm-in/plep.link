@@ -35,6 +35,14 @@ source_link = "https://www.reddit.com/r/destiny2/comments/dkq44y/garden_of_salva
 author = "Reddit u/Ambersca"
 
 [[resources.vow]]
+
+[vow.symbols]
+title = "Red Border Symbols"
+is_a_link = true
+res_link = "https://glyphs.destiny.guide/vow/bonus-chest"
+source_link = "https://glyphs.destiny.guide/vow/bonus-chest"
+author = ""
+
 [vow.callout]
 title = "Normal People Callouts"
 res_link = "/webp/vow-symbols.webp"
@@ -240,3 +248,17 @@ title = "Duality Caiatl"
 res_link = "/webp/duality-3.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/v0y2h5/made_a_map_for_duality_encounters_1_2/"
 author = "Reddit u/MrsAsphyxia"
+
+
+[[resources.kf]]
+[kf.symbols]
+title = "Red Border Symbols"
+res_link = "https://glyphs.destiny.guide/vow/bonus-chest"
+source_link= ""
+author = ""
+
+[kf.labyrinth]
+title = "Golgoroth Labyrinth"
+res_link = "/webp/kf-labyrinth.webp"
+source_link= "https://blakerobinson.info/entry/destiny-golgoroth-s-cellar"
+author = "Blake Robinson"
