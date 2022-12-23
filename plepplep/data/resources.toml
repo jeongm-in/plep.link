@@ -248,6 +248,12 @@ title = "Duality Caiatl"
 res_link = "/webp/duality-3.webp"
 source_link = "https://www.reddit.com/r/DestinyTheGame/comments/v0y2h5/made_a_map_for_duality_encounters_1_2/"
 author = "Reddit u/MrsAsphyxia"
+[etc.seraph]
+title = "Seraph's Shield"
+res_link = ""
+source_link = ""
+author = "PLEP"
+
 
 
 [[resources.kf]]
