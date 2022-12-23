@@ -291,7 +291,6 @@ gzip = true
     weight = 1
     [menu.main.params]
     first=true
-
   [[menu.main]]
     identifier = "etc-poh-ogre"    
     name = "Pit Ogre Room"
@@ -334,6 +333,12 @@ gzip = true
     url = "/etc/duality-3"
     parent = "etc"
     weight = 8
+  [[menu.main]]
+    identifier = "etc-seraph"    
+    name = "Seraph: Defense"
+    url = "/etc/seraph"
+    parent = "etc"
+    weight = 9
 
 
   # DSC related configs
