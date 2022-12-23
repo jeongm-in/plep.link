@@ -336,7 +336,7 @@ gzip = true
   [[menu.main]]
     identifier = "etc-seraph"    
     name = "Seraph: Defense"
-    url = "/etc/seraph/map.html"
+    url = "https://plepplep.tk/posts/etc/seraph/map.html"
     parent = "etc"
     weight = 9
 
