@@ -1,4 +1,4 @@
-baseURL = 'https://plepplep.tk/'
+baseURL = 'https://plep.link/'
 languageCode = 'en-us'
 title = 'Something Destiny 2 Stuff'
 theme = "pleppy"
@@ -336,7 +336,7 @@ gzip = true
   [[menu.main]]
     identifier = "etc-seraph"    
     name = "Seraph: Defense"
-    url = "https://plepplep.tk/posts/etc/seraph/map.html"
+    url = "https://plep.link/posts/etc/seraph/map.html"
     parent = "etc"
     weight = 9
 
