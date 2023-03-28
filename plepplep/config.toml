@@ -310,35 +310,23 @@ gzip = true
     parent = "etc"
     weight = 4
   [[menu.main]]
-    identifier = "etc-harb"    
-    name = "Harbinger Reservoir"
-    url = "/etc/hrbngr"
-    parent = "etc"
-    weight = 5
-  [[menu.main]]
     identifier = "etc-duality-1"    
     name = "Duality First"
     url = "/etc/duality-1"
     parent = "etc"
-    weight = 6
+    weight = 5
   [[menu.main]]
     identifier = "etc-duality-2"    
     name = "Duality Vault"
     url = "/etc/duality-2"
     parent = "etc"
-    weight = 7
+    weight = 6
   [[menu.main]]
     identifier = "etc-duality-3"    
     name = "Duality Caiatl"
     url = "/etc/duality-3"
     parent = "etc"
-    weight = 8
-  [[menu.main]]
-    identifier = "etc-seraph"    
-    name = "Seraph: Defense"
-    url = "https://plep.link/posts/etc/seraph/map.html"
-    parent = "etc"
-    weight = 9
+    weight = 7
 
 
   # DSC related configs
