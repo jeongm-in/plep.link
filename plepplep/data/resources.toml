@@ -253,7 +253,11 @@ title = "Seraph's Shield (click console to mark for hacking)"
 res_link = "/posts/etc/seraph/map.html"
 source_link = ""
 author = "PLEP"
-
+[etc.god-2]
+title = "Ghost of the Deep - Second Encounter"
+res_link = "/webp/god-2.webp"
+source_link = "https://www.reddit.com/r/raidsecrets/comments/13th0yk/ghosts_of_the_deep_dungeon_maps_guide_loot_table/"
+author = "Reddit u/pyranie"
 
 
 [[resources.kf]]
