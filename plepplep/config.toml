@@ -327,6 +327,13 @@ gzip = true
     url = "/etc/duality-3"
     parent = "etc"
     weight = 7
+  [[menu.main]]
+    identifier = "etc-god-2"    
+    name = "Ghost of the Deep - 2nd Encounter"
+    url = "/etc/god-2"
+    parent = "etc"
+    weight = 8
+
 
 
   # DSC related configs
