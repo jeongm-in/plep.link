@@ -26,6 +26,42 @@ pattern = "^.+\\.(html|xml|json)$"
 gzip = true
 
 [menu]
+  # Salvation's Edge
+  [[menu.main]]
+    name = "Salvation's Edge" 
+    identifier="se"
+    url = "/se"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "se-first" 
+    name = "Substratum (1)"
+    url = "/se/substratum/"
+    parent = "se" 
+    weight = 2
+    [menu.main.params]
+      first=true
+
+  [[menu.main]]
+    identifier = "se-second" 
+    name = "Dissipation (2)"
+    url = "/se/dissipation/"
+    parent = "se" 
+    weight = 3
+  [[menu.main]]
+    identifier = "se-third" 
+    name = "Repository (3)"
+    url = "/se/repository/"
+    parent = "se" 
+    weight = 4
+  [[menu.main]]
+    identifier = "se-final" 
+    name = "Witness (5)"
+    url = "/se/witness/"
+    parent = "se" 
+    weight = 5
+    
+
   # Vow related configs
   [[menu.main]]
     name = "Vow of the Disciple"    
@@ -333,8 +369,18 @@ gzip = true
     url = "/etc/god-2"
     parent = "etc"
     weight = 8
-
-
+  [[menu.main]]
+    identifier = "etc-sow-1"    
+    name = "Spire of the Watcher - 1st Encounter"
+    url = "/etc/sow-1"
+    parent = "etc"
+    weight = 9
+  [[menu.main]]
+    identifier = "etc-sow-3"    
+    name = "Spire of the Watcher - Final Encounter"
+    url = "/etc/sow-3"
+    parent = "etc"
+    weight = 10
 
   # DSC related configs
   [[menu.main]]

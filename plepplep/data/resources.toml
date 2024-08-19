@@ -70,6 +70,32 @@ res_link = "/webp/gos-vow-exhibition.webp"
 source_link = "https://twitter.com/hughmlong/status/1501197389486559238?cxt=HHwWjMC4oc7EqdUpAAAA"
 author = "Twitter @hughmlong"
 
+[[resources.se]]
+[se.substratum]
+title = "Substratum (1)"
+res_link = "/webp/se-substratum.webp"
+source_link ="https://www.reddit.com/r/raidsecrets/comments/1dnz91q/salvations_edge_map/"
+author = "aequorde (Reddit u/Working-Loss6230)"
+
+[se.dissipation]
+title = "Dissipation (2)"
+res_link = "/webp/se-dissipation.webp"
+source_link ="https://www.reddit.com/r/raidsecrets/comments/1dnz91q/salvations_edge_map/"
+author = "aequorde (Reddit u/Working-Loss6230)"
+
+[se.repository]
+title = "Repository (3)"
+res_link = "/webp/se-repository.webp"
+source_link =""
+author = "Lucian"
+
+
+[se.witness]
+title = "Witness (5)"
+res_link = "/webp/se-witness.webp"
+source_link ="https://www.reddit.com/r/raidsecrets/comments/1dnz91q/salvations_edge_map/"
+author = "aequorde (Reddit u/Working-Loss6230)"
+
 
 [[resources.lw]]
 [lw.callout]
@@ -258,6 +284,17 @@ title = "Ghost of the Deep - Second Encounter"
 res_link = "/webp/god-2.webp"
 source_link = "https://www.reddit.com/r/raidsecrets/comments/13th0yk/ghosts_of_the_deep_dungeon_maps_guide_loot_table/"
 author = "Reddit u/pyranie"
+[etc.sow-1]
+title = "Spire of the Watcher - 1st Encounter"
+res_link = "/webp/sow-1.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/zigd06/spire_of_the_watcher_first_encounter_map/"
+author = "Reddit u/ItsKaleTwitch"
+[etc.sow-3]
+title = "Spire of the Watcher - Final Encounter"
+res_link = "/webp/sow-3.webp"
+source_link = "https://www.reddit.com/r/DestinyTheGame/comments/zi2am4/spire_of_the_watcher_final_boss_map/"
+author = "Reddit u/HoldenAGrenade"
+
 
 
 [[resources.kf]]
